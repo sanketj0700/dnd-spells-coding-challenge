@@ -1,0 +1,23 @@
+.spell-list {
+	min-width: 275px;
+	width: 70%;
+}
+
+.spell-not-found {
+	padding: 10px;
+	font-size: 18px;
+}
+
+.fav-header-container {
+	width: 100vw;
+	display: flex;
+	/* margin-top: 2rem; */
+	justify-content: center;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.fav-header {
+	font-size: 2.75rem;
+	font-weight: 700;
+}

@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches App snapshot 1`] = `
+Array [
+  <div
+    className="NavBar"
+  >
+    <div
+      className="navbar-wrapper"
+      data-testid="navbar"
+    >
+      <div
+        className="navbar-logo"
+      >
+        Dungeons & Dragons
+      </div>
+      <div
+        className="navbar-nav-links-container"
+      >
+        <a
+          className="navbar-nav-link"
+          href="/"
+          onClick={[Function]}
+        >
+           
+          All Spells
+           
+        </a>
+        <a
+          className="navbar-nav-link"
+          href="/favourites"
+          onClick={[Function]}
+        >
+           
+          Favourites
+           
+        </a>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="Home"
+  >
+    <h1
+      className="home-header"
+    >
+      All Spells
+    </h1>
+    <div
+      className="spell-list"
+    >
+      <div>
+        <iframe
+          allowFullScreen={true}
+          data-testid="loader-gif"
+          frameBorder="0"
+          height="100%"
+          id="loader-gif"
+          src="https://giphy.com/embed/y1ZBcOGOOtlpC"
+          title="loader"
+          width="100%"
+        />
+      </div>
+      <nav
+        aria-label="pagination"
+        className=""
+      >
+        <ul
+          className="pagination"
+          data-testid="pagination"
+        >
+          <li
+            className="page-item"
+          >
+            <a
+              aria-label="First"
+              className="prev disabled page-link"
+              disabled={true}
+              href="#"
+              onClick={[Function]}
+            >
+              <span
+                aria-hidden="true"
+              >
+                «
+              </span>
+              <span
+                className="visually-hidden"
+              >
+                First
+              </span>
+            </a>
+          </li>
+          <li
+            className="page-item"
+          >
+            <a
+              aria-label="Previous"
+              className="prev disabled page-link"
+              disabled={true}
+              href="#"
+              onClick={[Function]}
+            >
+              <span
+                aria-hidden="true"
+              >
+                ‹
+              </span>
+              <span
+                className="visually-hidden"
+              >
+                Previous
+              </span>
+            </a>
+          </li>
+          <li
+            className="page-item"
+          >
+            <a
+              aria-label="Next"
+              className="next  page-link"
+              disabled={false}
+              href="#"
+              onClick={[Function]}
+            >
+              <span
+                aria-hidden="true"
+              >
+                ›
+              </span>
+              <span
+                className="visually-hidden"
+              >
+                Next
+              </span>
+            </a>
+          </li>
+          <li
+            className="page-item"
+          >
+            <a
+              aria-label="Last"
+              className="next  page-link"
+              disabled={false}
+              href="#"
+              onClick={[Function]}
+            >
+              <span
+                aria-hidden="true"
+              >
+                »
+              </span>
+              <span
+                className="visually-hidden"
+              >
+                Last
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>,
+]
+`;

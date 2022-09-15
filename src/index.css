@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+	color: #1a1b1f;
+	font-family: Montserrat, sans-serif;
+	font-size: 1rem;
+	line-height: 1.75rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

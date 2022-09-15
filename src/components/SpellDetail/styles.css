@@ -1,0 +1,13 @@
+.detail,
+.detail_heading {
+	width: 100%;
+	text-align: center;
+}
+
+.detail {
+	padding-bottom: 10px;
+}
+
+.detail_heading {
+	font-weight: 700;
+}

@@ -1,0 +1,23 @@
+.spell-li {
+	text-align: left;
+	color: black;
+	cursor: pointer;
+	font-weight: 700;
+	padding: 0.625rem 0.25rem;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.spell-li:hover {
+	background-color: #efefef;
+}
+
+.spell-name {
+	text-decoration: none;
+	color: black;
+}
+
+.spell-li>.fav-icon {
+	float: right;
+}
